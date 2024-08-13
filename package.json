@@ -1,0 +1,27 @@
+{
+    "name": "whatsapp-echo-webhook",
+    "version": "1.0.0",
+    "description": "An example WhatsApp webhook server https://developers.facebook.com/docs/whatsapp/sample-app-endpoints",
+    "main": "server.js",
+    "type": "module",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "author": "WhatsApp Team",
+    "license": "MIT",
+    "dependencies": {
+      "@google-cloud/vertexai": "^1.1.0",
+      "@google/generative-ai": "^0.10.0",
+      "axios": "^1.6.7",
+      "dotenv": "^16.4.5",
+      "express": "^4.19.2",
+      "mysql2": "^3.9.7",
+      "node-fetch": "^3.3.2",
+      "openai": "^4.47.1"
+    },
+    "engines": {
+      "node": ">=16.0.0"
+    },
+    "keywords": []
+  }
+  
